@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="description" content="Explore curated Paytm openings in Chennai and Bangalore, plus upcoming hackathons and tech events. An independent productwithsasi directory, updated 16 November 2026." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="productwithsasi" />
+  <meta property="og:title" content="Paytm Careers & Upcoming Hackathons | productwithsasi" />
+  <meta property="og:description" content="Paytm roles in Chennai & Bangalore. Hackathons, buildathons and tech events, all in one place." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/sksasikumar0712-cell/PaytmaihackthonAI/main/assets/og-cover.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <title>Paytm Jobs & Upcoming Hackathons | productwithsasi</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="jobs.js" defer></script>
+  <script src="events.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="#top" aria-label="productwithsasi, back to top">
+        <span class="avatar" aria-hidden="true">s.</span>
+        <span>productwithsasi</span>
+      </a>
+      <a class="social-link" href="https://linkedin.openinapp.co/f9dyq" target="_blank" rel="noopener noreferrer" aria-label="Follow productwithsasi on LinkedIn">in</a>
+    </div>
+  </header>
+
+  <main class="container" id="top">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">CAREERS &amp; TECH EVENTS <span class="eyebrow-dot">•</span> NOVEMBER 2026</p>
+      <h1 id="page-title">Paytm jobs &amp; upcoming<br class="desktop-break" /> hackathons</h1>
+      <p class="edition">Curated 16 November 2026 <span aria-hidden="true">·</span> Official application links</p>
+      <p class="description">Looking for your next opportunity? Browse Paytm openings in Chennai and Bangalore, and discover hackathons, buildathons and tech events worth checking out.</p>
+      <nav class="quick-nav" aria-label="Jump to section">
+        <a href="#jobs" class="quick-link"><span class="quick-symbol" aria-hidden="true">↗</span><span><strong>Paytm careers</strong><small>Chennai &amp; Bangalore</small></span><span class="quick-arrow" aria-hidden="true">↗</span></a>
+        <a href="#events" class="quick-link"><span class="quick-symbol" aria-hidden="true">⌘</span><span><strong>Hackathons &amp; events</strong><small>Upcoming opportunities</small></span><span class="quick-arrow" aria-hidden="true">↗</span></a>
+      </nav>
+    </section>
+
+    <section class="listing-section" id="jobs" aria-labelledby="jobs-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / JOB OPPORTUNITIES</p><h2 id="jobs-title">Paytm job openings</h2><p class="section-desc">Explore selected roles on Paytm's official Lever careers pages.</p></div>
+        <a class="small-outbound" href="https://jobs.lever.co/paytm" target="_blank" rel="noopener noreferrer">All Paytm roles ↗</a>
+      </div>
+      <div class="sticky-search" id="job-filters">
+        <label class="search-box" for="job-search"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only">Search job roles, teams and skills</span><input id="job-search" type="search" placeholder="Search role or department" autocomplete="off" /></label>
+        <div class="filters" role="group" aria-label="Filter jobs by location">
+          <button class="filter active" type="button" data-job-city="all" aria-pressed="true">All roles <span id="count-all"></span></button>
+          <button class="filter" type="button" data-job-city="chennai" aria-pressed="false">Chennai <span id="count-chennai"></span></button>
+          <button class="filter" type="button" data-job-city="bangalore" aria-pressed="false">Bangalore <span id="count-bangalore"></span></button>
+        </div>
+      </div>
+      <p class="result-count" id="job-count" role="status" aria-live="polite"></p>
+      <div class="job-grid" id="job-list"></div>
+      <p class="empty-state" id="job-empty" hidden>No matching openings. Try another search or location.</p>
+      <noscript>Enable JavaScript to view the listings. <a href="https://jobs.lever.co/paytm">Visit Paytm Careers ↗</a></noscript>
+      <div class="careers-note">
+        <strong>Want to see all current openings?</strong> These cards are a curated snapshot, not a live job feed. Check the official listings for the latest status.
+        <div class="source-links"><a href="https://jobs.lever.co/paytm?location=Chennai%2C%20Tamil%20Nadu" target="_blank" rel="noopener noreferrer">Chennai careers ↗</a><a href="https://jobs.lever.co/paytm?location=Bangalore%2C%20Karnataka" target="_blank" rel="noopener noreferrer">Bangalore careers ↗</a><a href="https://jobs.lever.co/paytm?location=Bengaluru%2C%20Karnataka" target="_blank" rel="noopener noreferrer">Bengaluru careers ↗</a></div>
+      </div>
+    </section>
+
+    <section class="listing-section events-section" id="events" aria-labelledby="events-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">02 / HACKATHONS &amp; EVENTS</p><h2 id="events-title">What's coming up</h2><p class="section-desc">Build, learn and connect. Hackathons and conferences are clearly labelled.</p></div>
+        <span class="count-pill">5 events</span>
+      </div>
+      <div class="event-filters">
+        <label class="search-box" for="event-search"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only">Search hackathons and events</span><input id="event-search" type="search" placeholder="Search event or organiser" autocomplete="off" /></label>
+        <div class="filters" role="group" aria-label="Filter event type">
+          <button class="filter active" type="button" data-event-kind="all" aria-pressed="true">All events</button>
+          <button class="filter" type="button" data-event-kind="hackathon" aria-pressed="false">Hackathons &amp; challenges</button>
+          <button class="filter" type="button" data-event-kind="conference" aria-pressed="false">Tech events</button>
+        </div>
+      </div>
+      <p class="result-count" id="event-count" role="status" aria-live="polite"></p>
+      <div class="event-grid" id="event-list"></div>
+      <p class="empty-state" id="event-empty" hidden>No matching events. Try another search or filter.</p>
+      <p class="event-date-note">Event dates and registration status can change. Markathon's listing contains conflicting deadline information, so verify it with the organiser before paying.</p>
+    </section>
+
+    <section class="about-section" aria-labelledby="about-title">
+      <p class="eyebrow">ABOUT THIS DIRECTORY</p><h2 id="about-title">One page. Two opportunities.</h2>
+      <p>This independent directory brings together selected Paytm jobs and tech events shared by <a href="https://www.instagram.com/productwithsasi/" target="_blank" rel="noopener noreferrer">@productwithsasi</a>. Every application and event button leads to an organiser or employer page. No account or payment is collected here.</p>
+    </section>
+    <p class="disclaimer">Independent directory, not affiliated with Paytm or event organisers. Listings are a snapshot as of 16 November 2026. Verify eligibility, availability, dates and any fees at the official source. Never pay anyone for a job application.</p>
+    <footer class="footer">Curated by <a href="https://www.instagram.com/productwithsasi/" target="_blank" rel="noopener noreferrer">@productwithsasi</a> <span aria-hidden="true">·</span> 16 Nov 2026</footer>
+  </main>
+  <div class="fixed-follow"><a href="https://linkedin.openinapp.co/f9dyq" target="_blank" rel="noopener noreferrer">Follow me on LinkedIn ↗</a></div>
+</body>
+</html>
